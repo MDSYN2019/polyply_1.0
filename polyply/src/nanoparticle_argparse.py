@@ -1,4 +1,3 @@
-import argparse
+"""Backward-compatible imports for nanoparticle CLI argument parsing."""
 
-def main() -> None:
-    
+from polyply.src.nanoparticle.argparse import *  # noqa: F401,F403
